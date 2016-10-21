@@ -17,15 +17,17 @@ tr064.initTR064Device("fritz.box", 49000, function (err, device) {
                 wanip.actions.GetSpecificHostEntry({NewMACAddress:"MACADDRESS"},function (err, result) {
 			console.log(err);
 			console.log(result);
+			res.send('You requested the root-path (/)<br>\
+			response:<br>\
+			 ' + JSON.stringify(result));
                 });
             }
         });
     }
 });
-
-
-res.send('You requested the root-path (/)');
 });
+
+
 
 app.listen(app.get('port'), function(){
 console.log('listening on port '+ app.get('port'));
