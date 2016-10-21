@@ -1,5 +1,5 @@
 {
-  "name": "tr064testclient",
+  "name": "RESTifyFritz",
   "version": "1.0.0",
   "private": true,
   "description": "",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johwen/tr064TestClient.git"
+    "url": "git+https://github.com/johwen/RESTifyFritz.git"
   },
   "author": "Johannes Wendel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johwen/tr064TestClient/issues"
+    "url": "https://github.com/johwen/RESTifyFritz/issues"
   },
-  "homepage": "https://github.com/johwen/tr064TestClient#readme",
+  "homepage": "https://github.com/johwen/RESTifyFritzt#readme",
   "dependencies": {
     "express": "^4.14.0",
     "tr-064": "^0.2.0"
